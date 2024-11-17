@@ -110,7 +110,8 @@ input1 = Entry(width=25)
 input1.grid(row=1,column=1)
 
 input2 = Entry(width=45)
-input2.insert(0,"p1219513@gmail.com")
+# prefilled email with a default value 
+input2.insert(0,"abc@gmail.com")
 input2.grid(row=2,column=1,columnspan=2)
 
 input3 = Entry(width=25)

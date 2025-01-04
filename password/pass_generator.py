@@ -79,14 +79,9 @@ def search():
             if users_web in data:
                 users_email = data[users_web]["email"]
                 users_pass = data[users_web]["password"]
-                messagebox.showinfo(title="information",message=f"email : {users_email}\npasswprd : {users_pass}")
+                messagebox.showinfo(title="information",message=f"email : {users_email}\npassword : {users_pass}")
             else:
                 messagebox.showinfo(title="information",message = "no data exist for this web")
-
-            users_email = users_web[email]
-            users_pass = users_web[password]
-            input2.insert(users_email)
-            input3.insert(users_pass)
 
 
 window = Tk()

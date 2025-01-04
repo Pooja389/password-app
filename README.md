@@ -26,12 +26,15 @@ A simple and efficient password manager built using Python's Tkinter library. Th
 ## How to Run
 
 1. Clone or download the repository.
-2. Ensure that `pass_generator.py` and `pass1.png` are in the same folder.
-3. Open a terminal/command prompt, navigate to the folder, and run the script:
+   ```bash
+   git clone https://github.com/Pooja389/password-app.git
+   ```
+3. Ensure that `pass_generator.py` and `pass1.png` are in the same folder.
+4. Open a terminal/command prompt, navigate to the folder, and run the script:
 
    ```bash
    python pass_generator.py
-
+   ```
 ## How It Works
 
 1. **Adding Credentials**:
